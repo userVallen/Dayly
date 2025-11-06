@@ -1,0 +1,55 @@
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eeeeee;
+  background-color: #27374d;
+  font-family: "Questrial", sans-serif;
+  overflow: auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.submit-button {
+  background-color: #9db2bf;
+}
+
+.btn:hover {
+  background-color: #4a6575;
+}
+
+.content {
+  display: flex;
+  max-width: 90%;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+
+.circle {
+  min-width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.weather-card {
+  display: flex;
+  flex: 0 0 6.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
